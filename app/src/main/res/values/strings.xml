@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Piano</string>
+    <string name="button_c_text">C</string>
+    <string name="button_d_text">D</string>
+    <string name="button_e_text">E</string>
+    <string name="button_f_text">F</string>
+    <string name="button_g_text">G</string>
+    <string name="button_a_text">A</string>
+    <string name="button_b_text">B</string>
+
+    <string name="button_c_sharp_text">C#</string>
+    <string name="button_d_sharp_text">D#</string>
+    <string name="button_g_sharp_text">G#</string>
+    <string name="button_f_sharp_text">F#</string>
+</resources>

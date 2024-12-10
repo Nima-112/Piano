@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Clavier blanc -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="C"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="D"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="E"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="F"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/buttonG"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="G"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="A"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:text="B"
+            android:textColor="@android:color/black"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+    <!-- Touches noires -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/buttonCSharp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="#000000"
+            android:text="C#"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/buttonDSharp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="#000000"
+            android:text="D#"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/buttonFSharp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="#000000"
+            android:text="F#"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/buttonGSharp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="#000000"
+            android:text="G#"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/buttonESharp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="#000000"
+            android:text="E#"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
